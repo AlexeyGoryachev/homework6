@@ -43,5 +43,12 @@ public class Main {
             total2 = total2 + deposit2;
             System.out.println("Месяц " + n + " сумма накоплений = " + total2);
         }
+        System.out.println("Task 10.");
+        int x = 2;
+        int x2 = 0;
+        for (int x1 = 0; x1 <= 10; x1++) {
+            x2 = x1 * x;
+            System.out.println(x1 + " * " + x + " = " + x2);
+        }
     }
 }
